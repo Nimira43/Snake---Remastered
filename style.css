@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Ewert&family=Faster+One&family=Fredericka+the+Great&family=Inspiration&family=Nabla&family=Petit+Formal+Script&family=Sancreek&family=Smokum&family=Stint+Ultra+Condensed&display=swap');
+
+body {
+    font-family: 'Fredericka the Great', sans-serif;
+    background: darkred;
+    color: beige;
+    
+}
+
+.grid {
+    background: linear-gradient(149deg, darkgoldenrod,black);
+    border-radius: 20px;
+    border:3px solid yellow;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+}
+
+.snake {
+    background: linear-gradient(68deg, red, orangered, black, red);
+    border-radius: 50px;
+}
+
+
+.apple { 
+    background: linear-gradient(222deg, rgb(220, 232, 2), rgb(88, 5, 5));
+    border-radius: 50px;
+    box-shadow: inset 3px 3px 15px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.start,
+.score {
+    background-color: black;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    border: 3px solid darkgoldenrod;
+    border-radius: 20px;
+    font-family: inherit;
+    outline: none;
+    padding: 5px 9px;
+    margin-bottom: 10px;
+}
+
+.start:focus {
+    outline: none; 
+} 
+
+.start:active {
+    transform: scale(0.95);
+}
+
+.start:hover {
+    background-color: red;
+    color:yellow;
+    border: 3px solid yellow;
+}
+.score {
+    display: inline;
+    border: none;
+    background-color: transparent;
+    color: silver;
+}
+
+
+
